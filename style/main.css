@@ -1,0 +1,156 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.body{
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+
+}
+
+.bg{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/b2.jpg');
+	background-color: #F8F9F9;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 0% 0%;
+	height: contain;
+
+
+}
+
+.navbar-custom{
+	background-color: white;
+}
+
+.navbar-brand{
+	margin-left: 6%;
+}
+
+.nav-item{
+	padding-left: 15px; 
+	padding-right: 15px;
+}
+
+.nav-item:hover{
+	border-bottom: solid;
+	border-color: #bf55ec;
+	border-width: 3px;
+}
+
+.header-text1{
+	font-family: 'Flamenco';
+	font-weight: bold;
+	font-size: calc(300% + 0.9vw + 0.9vh);
+	color: white; 
+	margin-top: 12%;
+
+}
+
+.color-change{
+	animation: colorch 1.5s infinite;
+}
+
+@keyframes colorch{
+	0%{color: red;}
+	25%{color:#bf55ec;}
+	50%{color: white;}
+	100%{color:#bf55ec;}
+}
+
+.header-text2{
+	 font-family: 'Flamenco';
+	font-weight: bold;
+	font-size: calc(200% + 0.6vw + 0.6vh);
+	color: white; 
+}
+
+.reg-btn{
+	border-radius: 25px;
+	background-color: #bf55ec;
+	color: white;
+	padding: 10px 60px; 
+	font-weight: 600;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.reg-btn:hover{
+	background-color: white;
+	color: #bf55ec;
+	border-color: #bf55ec;
+}
+
+.tagline{
+	font-family: 'Flamenco';
+	font-weight: bold;
+	font-size: calc(100% + 0.6vw + 0.6vh);
+	color: white;
+	margin-top: 100px;
+}
+
+
+.section-heading{
+	font-weight: bold;
+	font-size: calc(200% + 0.6vw + 0.6vh);
+	margin-top: 30px;
+	text-decoration: underline; 
+	text-decoration-color:#bf55ec ;
+	text-underline-position: under;
+}
+
+/* courses */
+
+#courses{
+	background-color: #F4F6F6 ;
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+
+}
+
+.clist{
+	color: green;
+}
+
+.card-button{
+	border-radius: 25px;
+	background-color: #bf55ec;
+	color: white;
+	padding: 5px 40px; 
+	font-weight: 400;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.card-button:hover{
+	background-color: white;
+	color: #bf55ec;
+	border-color: #bf55ec;
+}
+/* About us */
+
+.box-tag{
+ 	font-size: 16px; 
+ 	margin-top:30px;
+ 	font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ .misvis{
+ 	font-size: 16px;
+ 	text-align: justify;
+ 	font-family: 'Poppins', sans-serif;
+ }
+
+ .whatwe{
+ 	font-family: 'Poppins', sans-serif;
+ 	text-align: justify;
+ 	 font-size: 15px;
+ }
+
+ .center-text{
+ 	padding-top: 15px;
+ 	font-family: 'Poppins', sans-serif;
+ }
